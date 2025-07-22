@@ -1,0 +1,20 @@
+Module,Item,Qty,Part Number,Vendor,Unit Cost,Notes
+Battery Pack,Samsung 35E 18650 3.5Ah cell,65,INR18650-35E,18650batterystore,3.50,13S5P + spares
+Battery Pack,JBD/LLT 13S 60A UART BMS,1,JBD-SP15S003-60A,AliExpress,32,UART cable included
+Battery Pack,Nickel Strip 0.15mm 10mm,2m,Generic,Amazon,6,Spot welding
+Battery Pack,ANL Fuse 40A + holder,1,ANL40,Amazon,8,Main fuse
+Battery Pack,XT90S anti-spark connector pair,2,XT90S,Amazon,3,
+Controller,VESC 75/100,1,VESC75100,Trampa/Flipsky,150,Open protocol
+Controller,Pre-charge resistor 100Ω 5W,1,CPF5-100,Digikey,1,
+Controller,Contactor 60V 60A DC,1,Tyco EV200 or equiv,EV West,40,Optional if high current
+MCU,ESP32 DevKitC,1,ESP32-WROOM-32,Digikey,8,
+Sensors,PAS 12-magnet sensor,1,C961PAS,Amazon,9,5V supply
+Sensors,Hall twist throttle,1,THROTTLE-0-4V,Amazon,8,
+Sensors,Brake lever w/ cutoff switch,2,BRK-CUT,Amazon,12,NC to GND
+Lighting,DC-DC Buck 48V->12V 5A,1,DCDC-48-12-5A,Amazon,15,Lights & logic
+Harness,Waterproof connectors set,1,HIGO/Julet kit,Amazon,20,Match wire gauge
+Mechanicals,Bafang RM G060.750.DC rear hub,1,RM G060.750,GreenBikeKit,180,Includes hall wires
+Mechanicals,27.5\" rim e-bike rated,1,DM24 or similar,Jenson,45,
+Mechanicals,13/14g spokes + nipples,36,DT Swiss,Local shop,0.50,
+Misc,Heatshrink tubing,1 set,Various,Amazon,10,
+Misc,Kapton & fish paper,1 set,Various,Amazon,8,
