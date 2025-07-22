@@ -1,7 +1,94 @@
-Pre-charge & contactor circuit placeholder:
 
-Coil driver (MOSFET + flyback diode)
+EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+LIBS:connector
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "Pre-charge & Contactor Driver"
+Date "2025-07-22"
+Rev "A"
+Comp "SUNET eBike"
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 65010001
+P 3800 2200
+F 0 "R1" H 3800 2350 50  0000 C CNN
+F 1 "100R/5W" H 3800 2450 50  0000 C CNN
+F 2 "" H 3800 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	1    0    0    -1
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q1
+U 1 1 65010002
+P 4600 2600
+F 0 "Q1" H 4800 2650 50  0000 L CNN
+F 1 "IRLZ44N" H 4800 2550 50  0000 L CNN
+F 2 "" H 4600 2600 50  0001 C CNN
+F 3 "" H 4600 2600 50  0001 C CNN
+	1    4600 2600
+	1    0    0    -1
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 65010003
+P 5000 2000
+F 0 "D1" H 5000 2150 50  0000 C CNN
+F 1 "1N4148" H 5000 2250 50  0000 C CNN
+F 2 "" H 5000 2000 50  0001 C CNN
+F 3 "" H 5000 2000 50  0001 C CNN
+	1    5000 2000
+	1    0    0    -1
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 65010004
+P 5400 2200
+F 0 "J1" H 5480 2196 50  0000 L CNN
+F 1 "CONTACTOR_COIL" H 5480 2105 50  0000 L CNN
+F 2 "" H 5400 2200 50  0001 C CNN
+F 3 "" H 5400 2200 50  0001 C CNN
+	1    5400 2200
+	1    0    0    -1
+$EndComp
+Text Label 3400 2200 2    50   ~ 0
+BATT_POS
+Wire Wire Line
+	3400 2200 3600 2200
+Wire Wire Line
+	4000 2200 5200 2200
+Wire Wire Line
+	5200 2200 5200 2000
+Wire Wire Line
+	5200 2000 5000 2000
+Wire Wire Line
+	5200 2300 5200 2600
+Wire Wire Line
+	5200 2600 4700 2600
+Text Label 4400 2600 2    50   ~ 0
+GATE_CTRL
+$Comp
+L power:GND #PWR0201
+U 1 1 65010005
+P 4700 2800
+F 0 "#PWR0201" H 4700 2550 50  0001 C CNN
+F 1 "GND" H 4705 2627 50  0000 C CNN
+F 2 "" H 4700 2800 50  0001 C CNN
+F 3 "" H 4700 2800 50  0001 C CNN
+	1    4700 2800
+	1    0    0    -1
+$EndComp
+Wire Wire Line
+	4700 2800 4700 2700
+Wire Wire Line
+	5200 2200 5400 2200
+Wire Wire Line
+	5200 2300 5400 2300
+$EndSCHEMATC
 
-Pre-charge resistor across main contactor
-
-Pushbutton or MCU control line
