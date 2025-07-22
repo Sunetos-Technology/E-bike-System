@@ -1,0 +1,1 @@
+Placeholder schematic: controller pinout, hall sensor wiring, throttle/PAS inputs.

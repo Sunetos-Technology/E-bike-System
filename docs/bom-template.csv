@@ -1,0 +1,8 @@
+Module,Item,Qty,Part Number,Vendor,Unit Cost,Notes
+Battery Pack,18650 Cell 3Ah,52,Samsung 30Q,Mouser,3.2,13S4P
+Battery Pack,BMS 13S 40A,1,Daly 13S,AliExpress,25,
+Controller,FOC Controller 60V 50A,1,VESC 6 clone,,120,
+MCU,ESP32 DevKitC,1,ESP32-WROOM-32,Digikey,6,
+Sensors,PAS Cadence Sensor,1,C961,,8,
+Sensors,Throttle Hall,1,Generic,,5,
+Harness,XT90 Connector,2,XT90S,,3,

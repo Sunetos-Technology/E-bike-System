@@ -1,0 +1,12 @@
+KiCad schematic placeholder for battery pack.
+Blocks:
+
+13S cell groups (B1..B13)
+
+BMS connection (B-, C-, P-, B1..B13)
+
+Fuse on P+
+
+Contactor + pre-charge resistor
+
+XT90 output connector
